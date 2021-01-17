@@ -1,9 +1,11 @@
 import Provincias from './helper/provincias'
 import Partidos from './helper/partidos'
+import Axios from 'axios';
 
-function Controllers() {
+function Controllers(props: { updateCandidates: (candidates: []) => void; }) {
 
     const send = () => {
+        props.updateCandidates([]);
         console.log('Sending')
     }
     return (
