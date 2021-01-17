@@ -2,9 +2,10 @@ import Provincias from './helper/provincias'
 import Partidos from './helper/partidos'
 import Axios from 'axios';
 
-function Controllers(props: { updateCandidates: (candidates: []) => void; }) {
+function Controllers(props: { partidos: any[]; updateCandidates: (candidates: []) => void; }) {
 
     const send = () => {
+        let selected= props.partidos.filter(e => e.checked).map(e => e.id);
         props.updateCandidates([]);
         console.log('Sending')
     }
@@ -35,12 +36,13 @@ function Controllers(props: { updateCandidates: (candidates: []) => void; }) {
                 <div className='card-header' data-toggle='collapse' data-target='#collapse-partido'>
                     <h4>Partido Politico</h4>
                 </div>
-                <div id='collapse-partido' className='collapse card-body'>
-                    <Partidos />
+                <div id='collapse-partido' className='collapse card-body partidos'>
+                    <Partidos partidos={props.partidos} />
                 </div>
             </div>
             <div className='centered'>
                 <button type="button" className="btn btn-success w-100" onClick={send}>Enviar</button>
+
             </div>
         </div>
 

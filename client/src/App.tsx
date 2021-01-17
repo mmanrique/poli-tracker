@@ -6,22 +6,21 @@ import Candidates from './components/candidates'
 //Boostrap js
 import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
-
-
+import getPartidos from './components/data/partidos'
 
 function App() {
 
   const [candidates, setCandidates] = useState([]);
+  const [partidos] = useState(getPartidos());
 
   return (
     <div className="container-flex">
-      <div>Header</div>
       <div className='row'>
         <div className='col-4'>
-          <Controllers updateCandidates={setCandidates} />
+          <Controllers updateCandidates={setCandidates} partidos={partidos} />
         </div>
         <div className='col-8 border'>
-          <Candidates candidates={candidates}/>
+          <Candidates candidates={candidates} />
         </div>
       </div>
     </div>
