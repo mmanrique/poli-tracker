@@ -4,7 +4,7 @@ import time
 import os.path
 
 
-# https://plataformaelectoral.jne.gob.pe/HojaVida/GetHVConsolidado?param=135413-0-2646-110
+# GET https://plataformaelectoral.jne.gob.pe/HojaVida/GetHVConsolidado?param=135413-0-2646-110
 with open('pretty_empty-search.json') as json_file:
     data = json.load(json_file)
     candidate_array = data['data']
