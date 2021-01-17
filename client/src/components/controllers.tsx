@@ -5,7 +5,14 @@ import Axios from 'axios';
 function Controllers(props: { partidos: any[]; updateCandidates: (candidates: []) => void; }) {
 
     const send = () => {
-        let selected= props.partidos.filter(e => e.checked).map(e => e.id);
+        let selected = props.partidos.filter(e => e.checked).map(e => e.id);
+        let data = {
+            partidos: [],
+            sentencia: false,
+            region: '1/LIMA',
+            grado: 'GRADO'
+        }
+        Axios.post('/api/search', data)
         props.updateCandidates([]);
         console.log('Sending')
     }

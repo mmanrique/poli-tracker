@@ -1,0 +1,583 @@
+{
+    "aditional": 0,
+    "data": {
+        "lAnotacionMarginal": [],
+        "lBienInmueble": [
+            {
+                "decAutovaluo": 0,
+                "decUIT": 0,
+                "idEstado": 1,
+                "idHVBienInmueble": 165463,
+                "idHojaVida": 135413,
+                "intItemInmueble": 1,
+                "strComentario": "",
+                "strFichaTomoSunarp": "",
+                "strInmuebleDepartamento": "",
+                "strInmuebleDireccion": "",
+                "strInmuebleDistrito": "",
+                "strInmueblePais": "",
+                "strInmuebleProvincia": "",
+                "strInmuebleSunarp": "",
+                "strInmuebleUbiDepartamento": null,
+                "strInmuebleUbiDistrito": null,
+                "strInmuebleUbiProvincia": null,
+                "strOrder": null,
+                "strPartidaSunarp": "",
+                "strTengoInmueble": "2",
+                "strTipoBienInmueble": "",
+                "strUbigeoInmueble": "",
+                "strUsuario": "25579258"
+            }
+        ],
+        "lBienMueble": [
+            {
+                "decValor": 0,
+                "idEstado": 1,
+                "idHVBienMueble": 145666,
+                "idHojaVida": 135413,
+                "intItemMueble": 1,
+                "strAnio": "",
+                "strCaracteristica": "",
+                "strComentario": "",
+                "strMarca": "",
+                "strModelo": "",
+                "strOrder": null,
+                "strPlaca": "",
+                "strTengoBienMueble": "2",
+                "strUsuario": null,
+                "strVehiculo": ""
+            }
+        ],
+        "lBienMuebleOtro": [],
+        "lCargoElecHistorico": [
+            {
+                "idCargoEleccion": 1,
+                "idEstado": 2,
+                "strCargoEleccion": "PRESIDENTE DE LA REP\u00daBLICA",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 2,
+                "idEstado": 2,
+                "strCargoEleccion": "PRIMER VICEPRESIDENTE DE LA REP\u00daBLICA",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 3,
+                "idEstado": 2,
+                "strCargoEleccion": "SEGUNDO VICEPRESIDENTE DE LA REP\u00daBLICA",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 4,
+                "idEstado": 2,
+                "strCargoEleccion": "CONGRESISTA DE LA REP\u00daBLICA",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 5,
+                "idEstado": 2,
+                "strCargoEleccion": "REPRESENTANTE ANTE EL PARLAMENTO ANDINO",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 6,
+                "idEstado": 2,
+                "strCargoEleccion": "GOBERNADOR REGIONAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 7,
+                "idEstado": 2,
+                "strCargoEleccion": "VICEGOBERNADOR REGIONAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 8,
+                "idEstado": 2,
+                "strCargoEleccion": "ALCALDE PROVINCIAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 9,
+                "idEstado": 2,
+                "strCargoEleccion": "REGIDOR PROVINCIAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 10,
+                "idEstado": 2,
+                "strCargoEleccion": "ALCALDE DISTRITAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 11,
+                "idEstado": 2,
+                "strCargoEleccion": "REGIDOR DISTRITAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 12,
+                "idEstado": 2,
+                "strCargoEleccion": "CONSEJERO REGIONAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 13,
+                "idEstado": 2,
+                "strCargoEleccion": "ACCESITARIO",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 14,
+                "idEstado": 1,
+                "strCargoEleccion": "REGIDOR DE CENTRO POBLADO",
+                "strEstado": "ACTIVO (R)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 15,
+                "idEstado": 1,
+                "strCargoEleccion": "DIPUTADO",
+                "strEstado": "ACTIVO (R)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 16,
+                "idEstado": 1,
+                "strCargoEleccion": "SENADOR",
+                "strEstado": "ACTIVO (R)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 17,
+                "idEstado": 1,
+                "strCargoEleccion": "ALCADE(SA) DE CENTRO POBLADO",
+                "strEstado": "ACTIVO (R)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 18,
+                "idEstado": 1,
+                "strCargoEleccion": "CONGRESISTA CONSTITUYENTE",
+                "strEstado": "ACTIVO (R)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 19,
+                "idEstado": 1,
+                "strCargoEleccion": "REGIDOR PROVINCIAL SUPLENTE",
+                "strEstado": "ACTIVO (R)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 20,
+                "idEstado": 1,
+                "strCargoEleccion": "REPRESENTANTE DE ASAMBLEA REGIONAL",
+                "strEstado": "ACTIVO (R)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 21,
+                "idEstado": 1,
+                "strCargoEleccion": "REGIDOR DISTRITAL SUPLENTE",
+                "strEstado": "ACTIVO (R)",
+                "strUsuario": null
+            }
+        ],
+        "lCargoElecPostula": [
+            {
+                "idCargoEleccion": 1,
+                "idEstado": 2,
+                "strCargoEleccion": "PRESIDENTE DE LA REP\u00daBLICA",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 2,
+                "idEstado": 2,
+                "strCargoEleccion": "PRIMER VICEPRESIDENTE DE LA REP\u00daBLICA",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 3,
+                "idEstado": 2,
+                "strCargoEleccion": "SEGUNDO VICEPRESIDENTE DE LA REP\u00daBLICA",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 4,
+                "idEstado": 2,
+                "strCargoEleccion": "CONGRESISTA DE LA REP\u00daBLICA",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 5,
+                "idEstado": 2,
+                "strCargoEleccion": "REPRESENTANTE ANTE EL PARLAMENTO ANDINO",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 6,
+                "idEstado": 2,
+                "strCargoEleccion": "GOBERNADOR REGIONAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 7,
+                "idEstado": 2,
+                "strCargoEleccion": "VICEGOBERNADOR REGIONAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 8,
+                "idEstado": 2,
+                "strCargoEleccion": "ALCALDE PROVINCIAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 9,
+                "idEstado": 2,
+                "strCargoEleccion": "REGIDOR PROVINCIAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 10,
+                "idEstado": 2,
+                "strCargoEleccion": "ALCALDE DISTRITAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 11,
+                "idEstado": 2,
+                "strCargoEleccion": "REGIDOR DISTRITAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 12,
+                "idEstado": 2,
+                "strCargoEleccion": "CONSEJERO REGIONAL",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 13,
+                "idEstado": 2,
+                "strCargoEleccion": "ACCESITARIO",
+                "strEstado": "ACTIVO (U)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 14,
+                "idEstado": 1,
+                "strCargoEleccion": "REGIDOR DE CENTRO POBLADO",
+                "strEstado": "ACTIVO (R)",
+                "strUsuario": null
+            },
+            {
+                "idCargoEleccion": 17,
+                "idEstado": 1,
+                "strCargoEleccion": "ALCADE(SA) DE CENTRO POBLADO",
+                "strEstado": "ACTIVO (R)",
+                "strUsuario": null
+            }
+        ],
+        "lCargoEleccion": [
+            {
+                "idCargoEleccion": 0,
+                "idEstado": 1,
+                "idHVCargoEleccion": 133396,
+                "idHojaVida": 135413,
+                "idOrgPolCargoElec": 0,
+                "intItemCargoEleccion": 1,
+                "strAnioCargoElecDesde": "",
+                "strAnioCargoElecHasta": "",
+                "strCargoEleccion": "2",
+                "strCargoEleccion2": "",
+                "strComentario": "",
+                "strOrder": null,
+                "strOrgPolCargoElec": "",
+                "strUsuario": null
+            }
+        ],
+        "lCargoPartidario": [
+            {
+                "idEstado": 1,
+                "idHVCargoPartidario": 133135,
+                "idHojaVida": 135413,
+                "idOrgPolCargoPartidario": 0,
+                "intItemCargoPartidario": 1,
+                "strAnioCargoPartiDesde": "",
+                "strAnioCargoPartiHasta": "",
+                "strCargoPartidario": "",
+                "strComentario": "",
+                "strOrder": null,
+                "strOrgPolCargoPartidario": "",
+                "strTengoCargoPartidario": "2",
+                "strUsuario": null
+            }
+        ],
+        "lEduUniversitaria": [
+            {
+                "idEstado": 1,
+                "idHVEduUniversitaria": 138732,
+                "idHojaVida": 0,
+                "intItemEduUni": 1,
+                "strAnioBachiller": "2018",
+                "strAnioTitulo": "",
+                "strBachillerEduUni": "",
+                "strCarreraUni": "BACHILLER EN INGENIER\u00cdA INDUSTRIAL",
+                "strComentario": "",
+                "strConcluidoEduUni": "1",
+                "strEduUniversitaria": "1",
+                "strEgresadoEduUni": "1",
+                "strMetodoAccion": null,
+                "strOrder": null,
+                "strTengoEduUniversitaria": "1",
+                "strTituloUni": "",
+                "strUniversidad": "UNIVERSIDAD AUT\u00d3NOMA SAN FRANCISCO S.A.C.",
+                "strUsuario": null
+            }
+        ],
+        "lExperienciaLaboral": [
+            {
+                "idEstado": 1,
+                "idHVExpeLaboral": 152180,
+                "idHojaVida": 135413,
+                "intItemExpeLaboral": 1,
+                "strAnioTrabajoDesde": "2018",
+                "strAnioTrabajoHasta": "2019",
+                "strCentroTrabajo": "MINERA AURIFERA CUATRO DE ENERO S.A",
+                "strDireccionTrabajo": "JR. MOROCHA N\u00b0 239 A INT 01 URB SURQUILLO",
+                "strOcupacionProfesion": "AUXILIAR ALMACEN",
+                "strOrder": null,
+                "strRucTrabajo": "20498680144",
+                "strTengoExpeLaboral": "1",
+                "strTrabajoDepartamento": "LIMA",
+                "strTrabajoDistrito": "SURQUILLO",
+                "strTrabajoPais": "PER\u00da",
+                "strTrabajoProvincia": "LIMA",
+                "strTrabajoUbiDepartamento": null,
+                "strTrabajoUbiDistrito": null,
+                "strTrabajoUbiProvincia": null,
+                "strUbigeoTrabajo": "140131",
+                "strUsuario": "25579258"
+            }
+        ],
+        "lRenunciaOP": [
+            {
+                "cadenaRenuncia": null,
+                "idEstado": 1,
+                "idHVRenunciaOP": 132962,
+                "idHojaVida": 135413,
+                "idOrgPolRenunciaOP": 0,
+                "intItemRenunciaOP": 1,
+                "strAnioRenunciaOP": "",
+                "strComentario": "",
+                "strFechaRegistro": "16/12/2020 05:03:29 p.m.",
+                "strOrder": null,
+                "strOrgPolRenunciaOP": "",
+                "strTengoRenunciaOP": "2",
+                "strUsuario": "25579258"
+            }
+        ],
+        "lSentenciaObliga": [
+            {
+                "idEstado": 1,
+                "idHVSentenciaObliga": 131758,
+                "idHojaVida": 135413,
+                "idParamMateriaSentencia": 0,
+                "intItemSentenciaObliga": 1,
+                "strEstado": null,
+                "strExpedienteObliga": "",
+                "strFalloObliga": "",
+                "strMateriaSentencia": "",
+                "strOrder": null,
+                "strOrganoJuridicialObliga": "",
+                "strTengoSentenciaObliga": "2",
+                "strUsuario": null
+            }
+        ],
+        "lSentenciaPenal": [
+            {
+                "idEstado": 1,
+                "idHVSentenciaPenal": 131578,
+                "idHojaVida": 135413,
+                "idParamCumpleFallo": 0,
+                "idParamModalidad": 0,
+                "intItemSentenciaPenal": 1,
+                "strCumpleFallo": "",
+                "strDelitoPenal": "",
+                "strExpedientePenal": "",
+                "strFalloPenal": "",
+                "strFechaSentenciaPenal": "",
+                "strModalidad": "",
+                "strOrder": null,
+                "strOrganoJudiPenal": "",
+                "strOtraModalidad": "",
+                "strTengoSentenciaPenal": "2",
+                "strUsuario": null
+            }
+        ],
+        "oDatosPersonales": {
+            "decPorcentaje": 100,
+            "idCandidato": 162219,
+            "idCandidatoOtro": 0,
+            "idCargoEleccion": 4,
+            "idCargoEleccionOtro": 0,
+            "idEstado": 2,
+            "idHojaVida": 135413,
+            "idOrganizacionPolitica": 0,
+            "idParamHojaVida": 25,
+            "idProcesoElectoral": 110,
+            "idTipoEleccion": 0,
+            "idUsuario": 0,
+            "intCantidadPagina": 0,
+            "intCantidadReg": 0,
+            "intItem": 0,
+            "intPagina": 0,
+            "strAnioPostula": "2020",
+            "strApellidoMaterno": "CAMARGO",
+            "strApellidoPaterno": "LOAYZA",
+            "strCargoEleccion": null,
+            "strCarneExtranjeria": "",
+            "strClase": null,
+            "strDocumentoIdentidad": "70574939",
+            "strDomiDepartamento": "AREQUIPA",
+            "strDomiDistrito": "MAJES",
+            "strDomiProvincia": "CAYLLOMA",
+            "strDomiUbiDepartamento": null,
+            "strDomiUbiDistrito": null,
+            "strDomiUbiProvincia": null,
+            "strDomicilioDirecc": "EL PEDREGAL MZ.A17 LT.15",
+            "strEnlaceMenu": null,
+            "strEstado": "ACTIVO (U)",
+            "strFeTerminoRegistro": "16/12/2020 17:06:32",
+            "strFechaNacimiento": "14/10/1991",
+            "strHojaVida": "CONFIRMADO",
+            "strNaciDepartamento": "AREQUIPA",
+            "strNaciDistrito": "LLUTA",
+            "strNaciProvincia": "CAYLLOMA",
+            "strNaciUbiDepartamento": null,
+            "strNaciUbiDistrito": null,
+            "strNaciUbiProvincia": null,
+            "strNombreArchivo": "",
+            "strNombres": "AAR\u00d3N JEREMIAS",
+            "strPaisNacimiento": "PER\u00da",
+            "strPostulaDepartamento": " ",
+            "strPostulaDistrito": "AREQUIPA",
+            "strPostulaProvincia": " ",
+            "strPostulaUbiDepartamento": null,
+            "strPostulaUbiDistrito": null,
+            "strPostulaUbiProvincia": null,
+            "strProcesoElectoral": 0,
+            "strRegistro": null,
+            "strRutaArchivo": "/Assets/Fotos-HojaVida/135413.jpg",
+            "strSexo": "1",
+            "strUbigeoDomicilio": "040220",
+            "strUbigeoNacimiento": "040211",
+            "strUbigeoPostula": "040000",
+            "strUsuario": "25579258",
+            "strterminoregistro": null
+        },
+        "oEduBasica": {
+            "idEstado": 1,
+            "idHVEduBasica": 134526,
+            "idHojaVida": 135413,
+            "strConcluidoEduPrimaria": "1",
+            "strConcluidoEduSecundaria": "1",
+            "strEduPrimaria": "1",
+            "strEduSecundaria": "1",
+            "strTengoEduBasica": "1",
+            "strUsuario": null
+        },
+        "oEduNoUniversitaria": {
+            "idEstado": 1,
+            "idHVNoUniversitaria": 132691,
+            "idHojaVida": 135413,
+            "strCarreraNoUni": "DIPLOMADO DE RECURSOS HUMANOS",
+            "strCentroEstudioNoUni": "MINPE - INSTITUCI\u00d3N DE FORMACI\u00d3N Y ESPECIALIZACI\u00d3N",
+            "strConcluidoNoUni": "1",
+            "strEduNoUniversitaria": "1",
+            "strTengoNoUniversitaria": "1",
+            "strUsuario": null
+        },
+        "oEduPosgrago": {
+            "idEstado": 1,
+            "idHVPosgrado": 131748,
+            "idHojaVida": 135413,
+            "intItemPosgrado": 1,
+            "strAnioPosgrado": "",
+            "strCenEstudioPosgrado": "",
+            "strComentario": "",
+            "strConcluidoPosgrado": "0",
+            "strEgresadoPosgrado": "0",
+            "strEsDoctor": "0",
+            "strEsMaestro": "0",
+            "strEspecialidadPosgrado": "",
+            "strTengoPosgrado": "2",
+            "strUsuario": null
+        },
+        "oEduTecnico": {
+            "idEstado": 1,
+            "idHVEduTecnico": 131967,
+            "idHojaVida": 135413,
+            "strCarreraTecnico": "",
+            "strCenEstudioTecnico": "",
+            "strComentario": "",
+            "strConcluidoEduTecnico": "0",
+            "strTengoEduTecnico": "2",
+            "strUsuario": null
+        },
+        "oInfoAdicional": {
+            "idEstado": 1,
+            "idHVInfoAdicional": 131326,
+            "idHojaVida": 135413,
+            "strInfoAdicional": "",
+            "strTengoInfoAdicional": "2",
+            "strUsuario": null
+        },
+        "oIngresos": {
+            "decOtroIngresoPrivado": 0,
+            "decOtroIngresoPublico": 0,
+            "decRemuBrutaPrivado": 21417.99,
+            "decRemuBrutaPublico": 0,
+            "decRentaIndividualPrivado": 0,
+            "decRentaIndividualPublico": 0,
+            "idEstado": 1,
+            "idHVIngresos": 133829,
+            "idHojaVida": 135413,
+            "strAnioIngresos": "2019",
+            "strTengoIngresos": "1",
+            "strUsuario": null
+        }
+    },
+    "extravalue": null,
+    "message": "",
+    "messageLog": "",
+    "success": true,
+    "type": 1
+}
