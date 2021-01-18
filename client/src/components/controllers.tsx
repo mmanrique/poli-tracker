@@ -5,17 +5,19 @@ import Axios from 'axios';
 function Controllers(props: { partidos: any[]; updateCandidates: (candidates: []) => void; }) {
 
     const send = () => {
-        let selected = props.partidos.filter(e => e.checked).map(e => e.id);
+        let selectedParty = props.partidos.filter(e => e.checked).map(e => e.id);
         let data = {
-            partidos: [],
-            sentencia: false,
-            region: '1/LIMA',
-            grado: 'GRADO'
+            party: selectedParty
         }
-        Axios.post('/api/search', data)
-        props.updateCandidates([]);
-        console.log('Sending')
+        Axios.post('/api/search', data).then(function (response) {
+            console.log(response)
+            props.updateCandidates(response.data)
+
+        }).catch(function (error) {
+            console.log(error);
+        })
     }
+
     return (
         <div className="controllers">
             <div className='card'>

@@ -9,6 +9,49 @@ candidates = []
 # intcantexpedientesdadivas is always 0
 # strprocesoelectoral is always ELECCIONES GENERALES 2021
 
+
+def aggregate_education(candidate_details):
+    basica = candidate_details['oEduBasica']['strTengoEduBasica'] == '1'
+    primaria = candidate_details['oEduBasica']['strConcluidoEduPrimaria'] == '1'
+    secundaria = candidate_details['oEduBasica']['strConcluidoEduSecundaria'] == '1'
+    universitaria = hasEduUniversitaria(candidate_details['lEduUniversitaria'])
+    master = candidate_details['oEduPosgrago']['strEsMaestro'] == '1'
+    doctor = candidate_details['oEduPosgrago']['strEsDoctor'] == '1'
+    sequence = [basica, primaria, secundaria, universitaria, master, doctor]
+    counter = 0
+    # stops when finds a False
+    for item in sequence:
+        if item == True:
+            counter += 1
+        else:
+            break
+    return {
+        'basica': basica,
+        'primaria': primaria,
+        'secundaria': secundaria,
+        'universitaria': universitaria,
+        'master': master,
+        'doctor': doctor,
+        'highest': counter
+    }
+
+
+def hasEduUniversitaria(eduUniversitariaList):
+    for item in eduUniversitariaList:
+        if item['strConcluidoEduUni'] == '1':
+            return True
+    return False
+
+
+def hasSentencia(candidate_details):
+    sentencias_list = candidate_details['lSentenciaPenal']
+    for sentencia in sentencias_list:
+        if sentencia['strTengoSentenciaPenal'] == '1':
+            return True
+    return False
+
+
+parties = []
 with open('pretty_empty-search.json') as json_file:
     candidates_array = json.load(json_file)['data']
     for candidate_raw in candidates_array:
@@ -57,9 +100,16 @@ with open('pretty_empty-search.json') as json_file:
                     },
                     'number': candidate_raw['intPosicion'],
                     'status': candidate_raw['strestado']
-                }
+                },
+                'education': aggregate_education(candidate_details),
+                'sentencia': hasSentencia(candidate_details)
             }
             candidates.append(candidate)
+            parties.append(
+                {
+                    'partyId': candidate_raw['idorganizacionpolitica'],
+                    'partyName': candidate_raw['strorganizacionpolitica']
+                })
 
 
 with open("summarized.json", 'w') as output_file:

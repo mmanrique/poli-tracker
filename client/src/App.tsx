@@ -19,7 +19,7 @@ function App() {
         <div className='col-4'>
           <Controllers updateCandidates={setCandidates} partidos={partidos} />
         </div>
-        <div className='col-8 border'>
+        <div className='col-8 border candidates'>
           <Candidates candidates={candidates} />
         </div>
       </div>
