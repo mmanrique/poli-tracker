@@ -29,11 +29,16 @@ function Candidates(props: { candidates: any[]; }) {
     }, [props.candidates])
 
 
-
-
-
-
-
+    const getEducation = (e: { education: any }) => {
+        switch(e.education.highest){
+            case 1: return "Basica";
+            case 2: return "Primaria";
+            case 3: return "Secundaria";
+            case 4: return "Universitaria";
+            case 5: return "Master";
+            case 6: return "Doctor";
+        }
+    }
 
 
     const imageAddress = "https://declara.jne.gob.pe"
@@ -49,7 +54,12 @@ function Candidates(props: { candidates: any[]; }) {
                 <div className='card candidate'>
                     <img className="card-img-top" src={imageAddress + e.picture} alt="Card image cap"></img>
                     <div className='card-body'>
-                        {JSON.stringify(e)}
+                        <h5 className='card-title'>{e.name}</h5>
+                        <h5 className='card-title'>{e.firstLastName} {e.secondLastName}</h5>
+                        <p className={e.sentencia ? "sentenciado" : "no-sentenciado"}>Sentencia: {e.sentencia ? "Tiene" : "No Tiene"}</p>
+                        <p className="partido">Partido: {e.party.partyName}</p>
+                        <p className="birthday">Fecha Nacimiento: {e.birthInformation.birthday}</p>
+                        <p>Nivel Educacion: {getEducation(e)}</p>
                     </div>
                 </div>
             ))}
@@ -86,7 +96,7 @@ function Candidates(props: { candidates: any[]; }) {
                     {currentPage + 2 < pages && (
                         <li className="page-item"><a className="page-link" onClick={() => moveToPage(currentPage + 2)} >{currentPage + 2}</a></li>
                     )}
-                    
+
                     {currentPage + 3 < pages && (
                         <li className="page-item"><a className="page-link">...</a></li>
                     )}

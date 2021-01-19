@@ -23,8 +23,9 @@ app.post('/api/search', (req, res) => {
         dni: req.body.dni,
         party: req.body.party,
         location: req.body.location,
-        sentencia: req.body.sentencia,
-        education: req.body.education
+        sentencia: req.body.sentencia === "" ? undefined : req.body.sentencia === '0' ? false : true,
+        sex: req.body.sexo === "" ? undefined : req.body.sexo,
+        education: req.body.education === "" ? undefined : req.body.education
 
     }
     let result = data
@@ -44,20 +45,27 @@ app.post('/api/search', (req, res) => {
         .filter(e => {
             return search.sentencia !== undefined ? e.sentencia == search.sentencia : true;
         })
+        //Sexo
+        .filter(e => {
+            return search.sex !== undefined ? e.sex == search.sex : true;
+        })
         //Education.
         .filter(e => {
             return search.education !== undefined ? e.education[search.education] : true;
         });
-    //Shuffle the Array.
+    //Shuffle the Array. only if > 100 elements
     //It's probably not randomized ie: same probablity, but does the job
-    for (let i = 0; i < result.length; i++) {
-        let randomPosition = Math.floor(Math.random() * result.length);
-        //Swap i with random position
-        let tmp = result[i];
-        result[i] = result[randomPosition];
-        result[randomPosition] = tmp;
+    if (result.length > 100) {
+        for (let i = 0; i < result.length; i++) {
+            let randomPosition = Math.floor(Math.random() * result.length);
+            //Swap i with random position
+            let tmp = result[i];
+            result[i] = result[randomPosition];
+            result[randomPosition] = tmp;
+        }
     }
-    
+
+
     res.json(result);
 });
 

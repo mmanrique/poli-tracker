@@ -20,11 +20,9 @@ def aggregate_education(candidate_details):
     sequence = [basica, primaria, secundaria, universitaria, master, doctor]
     counter = 0
     # stops when finds a False
-    for item in sequence:
+    for idx, item in enumerate(sequence):
         if item == True:
-            counter += 1
-        else:
-            break
+            counter = idx+1
     return {
         'basica': basica,
         'primaria': primaria,
