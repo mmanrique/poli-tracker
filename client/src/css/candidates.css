@@ -1,4 +1,15 @@
 .card.candidate {
-  width: calc(100%/3 - 20px);
+  width: calc(100% / 4 - 20px);
+}
+
+.candidates nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pagination {
+  margin: auto;
 }
 /*# sourceMappingURL=candidates.css.map */
