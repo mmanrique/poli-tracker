@@ -4,6 +4,7 @@ const path = require('path');
 const cors = require("cors");
 const rateLimit = require("express-rate-limit");
 var fs = require('fs');
+const path = require('path');
 
 const apiLimiter = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes
@@ -67,6 +68,10 @@ app.post('/api/search', (req, res) => {
 
 
     res.json(result);
+});
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname + '/../client/build/index.html'));
 });
 
 const port = process.env.PORT || 5000;
