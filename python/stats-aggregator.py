@@ -165,14 +165,14 @@ with open('summarized.json') as json_file:
     # print(calculate_age_blocks_partido(filter(congresal_filter, candidates_array)))
 
     stats = {
-        'total-partido': calculate_total_postulaciones(filter(congresal_filter, candidates_array)),
-        'sexo-congresal': calculate_sexo_congresista(filter(congresal_filter, candidates_array)),
-        'sexo-partido': calculate_sexo_partido(filter(congresal_filter, candidates_array)),
-        'sentenicas-congresal': calculate_sentencias_total(filter(congresal_filter, candidates_array)),
-        'sentencias-partido': calculate_sentencias_partido(filter(congresal_filter, candidates_array)),
-        'sentencias-sexo': calculate_sentencias_sexo(filter(congresal_filter, candidates_array)),
-        'age-blocks': calculate_age_blocks(filter(congresal_filter, candidates_array)),
-        'age-blocks-partido': calculate_age_blocks_partido(filter(congresal_filter, candidates_array)),
+        'total_partido': calculate_total_postulaciones(filter(congresal_filter, candidates_array)),
+        'sexo_congresal': calculate_sexo_congresista(filter(congresal_filter, candidates_array)),
+        'sexo_partido': calculate_sexo_partido(filter(congresal_filter, candidates_array)),
+        'sentenicas_congresal': calculate_sentencias_total(filter(congresal_filter, candidates_array)),
+        'sentencias_partido': calculate_sentencias_partido(filter(congresal_filter, candidates_array)),
+        'sentencias_sexo': calculate_sentencias_sexo(filter(congresal_filter, candidates_array)),
+        'age_blocks': calculate_age_blocks(filter(congresal_filter, candidates_array)),
+        'age_blocks_partido': calculate_age_blocks_partido(filter(congresal_filter, candidates_array)),
     }
     
     with open("stats/result.json", 'w') as output_file:
